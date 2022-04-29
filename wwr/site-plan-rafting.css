@@ -16,7 +16,7 @@ Fonts are separated by a | */
   --heading-font: 'Rock Salt', cursive;
   --paragraph-font: 'Roboto', sans-serif, Helvetica, sans-serif;
 
-  /* these colors below should be chosen from among your palette colors above */
+  /* these colors below should be chosen from among your palette colors  above */
   --headline-color-on-white: rgb(57, 116, 210);  /* headlines on a white background */ 
   --headline-color-on-color: rgb(255, 255, 255); /* headlines on a colored background */ 
   --paragraph-color-on-white: #1db0a6; /* paragraph text on a white background */ 
