@@ -1,0 +1,19 @@
+h1{ 
+    color: orange;
+    font-size: 2em;
+}
+
+section{
+    margin: 50px;
+    border: solid 2px black;
+    background-color: lightgrey;
+    border-radius: 5px;
+    color: purple;
+}
+img{
+    float: right;
+    padding: 15px;
+}
+.clear{
+    clear: both;
+}

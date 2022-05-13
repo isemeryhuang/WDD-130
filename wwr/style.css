@@ -1,0 +1,88 @@
+#background {
+    height: 725px;
+    background-color: #adadad;
+}
+body {
+    background-color: #ffffff; 
+}
+header {
+    background-color:rgba(73, 73, 73, 0.7);
+}
+
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}  
+.icon {
+    width: 80px;
+}
+nav a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}    
+
+
+.hero-msg{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.hero-msg a {
+    color: #860000;
+}
+.hero-msg a:hover{
+    background-color: rgb(134, 134, 134);
+    color: #ffffff;
+}
+.rivers-card{
+    text-align: center;
+
+}
+
+.hero-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.camping-card{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.rapids-card{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.msg{
+    background-color:#959393b3;
+    text-align: center;
+}
+.msg a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}  
+.msg a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer{
+    background-color:#959393b3;
+    color: #ffffff;
+}
+h3 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+h3 a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
