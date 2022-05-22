@@ -1,0 +1,58 @@
+body{
+    background-color:#FBA6C9;
+}
+h1 {
+    color: white; 
+    text-align: center;
+    font-size: 2.5em; 
+    font-family: 'Roboto', sans-serif;
+}
+h1:hover {
+  color:black;
+  font-family: 'Roboto', sans-serif;
+    }
+h2{
+    text-align:center;
+    font-size:1em;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+}
+.edu {
+    color:white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width:30%;
+    margin-left:35%;
+    line-height:2;
+}
+.quote{
+    color: white;
+    font-size:2.1em;
+    width:20%;
+    margin-left:40%;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+h2{
+    color: white;
+}
+li{
+    font-weight: bold;
+    margin-left: 35%;
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+.church{
+    width:23%;
+    margin-left:38%;
+    color:black;
+    font-size:.9em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
