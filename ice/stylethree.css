@@ -1,0 +1,41 @@
+.cherries{
+    float: left;
+    width: 100%;
+    margin: auto;
+}
+
+h1{
+    position: absolute;
+    font-family: 'Times', serif;
+    top: 25px;
+    left: 5%;
+    width: 100%;
+    font-size: 7em;
+    letter-spacing: 0.1em;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 33% 27%;
+    margin: auto;
+}
+
+.background{
+    background-color: #B9B8B9;
+}
+
+.clear{
+    clear:both;
+}
+
+p{
+    position: absolute;
+    left: 36%;
+    top: 37%;
+    font-family: 'Times', serif;
+    text-align: center;
+    color: #a70000;
+    font-size: 4em;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+}
