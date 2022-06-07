@@ -56,8 +56,9 @@ nav a {
 }
 .home-grid{
     display: grid;
-    grid-column: auto;
-    grid-row: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 300px 100px 100px 50px 200px 50px 
+    50px 100px;
 }
 .card-img {
     border: 10px solid #767676;
@@ -82,6 +83,15 @@ nav a {
     text-align: center;
     grid-column: 8/10;
     grid-row: 2/3;
+}
+.card-img {
+    border: 10px solid #767676;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 main section img {
     box-sizing: border-box;
