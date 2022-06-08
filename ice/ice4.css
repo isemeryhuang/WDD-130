@@ -1,4 +1,6 @@
 body{
+    width: 750px;
+    height: 850px;
     background-color: white;
     box-shadow: 1px 3px 20px 1px #6f7364;
     border-radius: 25px;
@@ -17,9 +19,9 @@ header{
     grid-column: 1/2;
     grid-row: 2/3;
     color: #455466;
-    margin: auto;
+    margin: 0%;
     text-align: center;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Radio Canada', sans-serif;
 }
 .name{
     grid-column: 3/4;
@@ -28,7 +30,7 @@ header{
     text-align: center;
     margin-top: 30px;
     font-size: 130%;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Radio Canada', sans-serif;
 }
 .location{
     background-color: #0B1E35;
@@ -44,6 +46,7 @@ header{
     grid-row: 1/2;
     font-size: small;
     padding-top: 20px;
+    font-family: 'Radio Canada', sans-serif;
 }
 .arrives{
     text-align: center;
@@ -51,6 +54,7 @@ header{
     grid-row: 1/2;
     font-size: small;
     padding-top: 20px;
+    font-family: 'Radio Canada', sans-serif;
 }
 .loca-1{
     text-align: center;
@@ -94,7 +98,7 @@ header{
     grid-template-rows: 50px 25px 50px 50px 25px 50px 50px;
     text-align: center;
     color: #0B1E35;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Radio Canada', sans-serif;
 }
 .date{
     grid-column: 1/2;
