@@ -1,61 +1,182 @@
 body{
     background-color: white;
+    box-shadow: 1px 3px 20px 1px #6f7364;
+    border-radius: 25px;
 }
 header{
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 25px;
+}
+.logo{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: auto;
+}
+.pass{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: #455466;
+    margin: auto;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+}
+.name{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: #455466;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 130%;
+    font-family: 'Catamaran', sans-serif;
 }
 .location{
-    background-color: #070744;
+    background-color: #0B1E35;
     display: grid;
+    color: #455466;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 50px 50px;
-}
-.plane{
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-.loca-1{
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-.loca-2{
-    grid-column: 3/4;
-    grid-row: 2/3;
+    grid-template-rows: 50px 70px 50px;
+    font-family: 'Catamaran', sans-serif;
 }
 .departs{
+    text-align: center;
     grid-column: 1/2;
     grid-row: 1/2;
+    font-size: small;
+    padding-top: 20px;
 }
 .arrives{
+    text-align: center;
     grid-column: 3/4;
     grid-row: 1/2;
+    font-size: small;
+    padding-top: 20px;
 }
-.loca-1-1{
+.loca-1{
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: white;
+    margin: auto;
+    font-size:250%;
+}
+.plane {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: auto;
+}
+.loca-2{
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: white;
+    margin: auto;
+    font-size: 250%;
+}
+.loca-1-d{
+    text-align: center;
     grid-column: 1/2;
     grid-row: 3/4;
+    font-size: small;
+    margin: 0px;
 }
-.loca-2-2{
+.loca-2-b{
+    text-align: center;
     grid-column: 3/4;
     grid-row: 3/4;
+    font-size: small;
+    margin: 0px;
 }
 .info{
+    background-color: lightgray;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 50px;
+    grid-template-rows: 50px 25px 50px 50px 25px 50px 50px;
+    text-align: center;
+    color: #0B1E35;
+    font-family: 'Catamaran', sans-serif;
 }
 .date{
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 2/3;
+    font-size: small;
+    margin: auto;
+}
+.date-1{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 150%;
+    margin-top: 0px;
 }
 .flight{
     grid-column: 2/3;
     grid-row: 2/3;
+    font-size: small;
+    margin: auto;
+}
+.flight-1{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 150%;
+    margin-top: 0px;
 }
 .gate{
     grid-column: 3/4;
+    grid-row: 2/3;
+    font-size: small;
+    margin: auto;
+}
+.gate-1{
+    grid-column: 3/4;
     grid-row: 3/4;
+    font-size: 150%;
+    margin-top: 0px;
+}
+.seat{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    font-size: small;
+    margin: auto;
+}
+.seat-1{
+    grid-column: 1/2;
+    grid-row: 6/7;
+    font-size: 150%;
+    margin-top: 0px;
+}
+.zone{
+    grid-column: 2/3;
+    grid-row: 5/6;
+    font-size: small;
+    margin: auto;
+}
+.zone-1{
+    grid-column: 2/3;
+    grid-row: 6/7;
+    font-size: 150%;
+    margin-top: 0px;
+}
+.time{
+    grid-column: 3/4;
+    grid-row: 5/6;
+    font-size: small;
+    margin: auto;
+}
+.time-1{
+    grid-column: 3/4;
+    grid-row: 6/7;
+    font-size: 150%;
+    margin-top: 0px;
 }
 footer{
-    align-items: center;
+    text-align: center;
+}
+.code{
+    margin-top: 50px;
+}
+.thank{
+    padding-bottom: 50px;
+    font-size: medium;
+    font-family: 'Catamaran', sans-serif;
+    color: #455466;;
 }
