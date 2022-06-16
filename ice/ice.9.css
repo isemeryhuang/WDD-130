@@ -1,11 +1,14 @@
 html{
     background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 body{  
     width: 300px;
     height: 550px;
     background-color: white;
     border-radius: 25px;
+    grid-column: 2/3;
 }
 .ny{
     border-top-left-radius: 25px;
@@ -20,13 +23,14 @@ h1{
     text-align: center;
     margin-top: -15px;
 }
-p{
+.p{
     display: grid;
     text-align: center;
     height: 175px;
-    grid-column: 2/3;
     color: rgb(126, 126, 126);
+    font-size: 13px;
     font-family: 'Charis SIL', serif;
+    padding: 0px 50px;
 }
 footer{
     background-color: #4765a5;
