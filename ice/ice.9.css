@@ -1,0 +1,83 @@
+html{
+    background-color: black;
+}
+body{  
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border-radius: 25px;
+}
+.ny{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.post-time{
+    text-align: center;
+    color: #4765a5;
+    font-size: small;
+}
+h1{
+    text-align: center;
+    margin-top: -15px;
+}
+p{
+    display: grid;
+    text-align: center;
+    height: 175px;
+    grid-column: 2/3;
+    color: rgb(126, 126, 126);
+    font-family: 'Charis SIL', serif;
+}
+footer{
+    background-color: #4765a5;
+    display: grid;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+    height: 80px;
+    font-family: 'Nuosu SIL', serif;
+}
+.read-time{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 15px;
+    font-size: 20px;
+    
+}
+.read-time-1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: -25px;
+    font-size: 10px;
+    
+}
+.view{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 15px;
+    font-size: 20px;
+    border-left: .5px solid white;
+    border-right: .5px solid white;
+}
+.view-1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: -25px;
+    font-size: 10px;
+    border-left: .5px solid white;
+    border-right: .5px solid white;
+}
+.comments{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.comments-1{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-top: -25px;
+    font-size: 10px;
+}
